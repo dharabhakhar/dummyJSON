@@ -1,0 +1,114 @@
+.spacer{
+    padding: 70px 0;
+}
+.item_sec{
+    box-shadow: 5px 5px 10px rgba(253, 252, 254,.1);
+}
+.item_sec:hover{
+    box-shadow: 0 0 20px rgba(253,253,253,.3);
+}
+.item_img{
+    height: 300px;
+    position: relative;
+}
+.product_img{
+    position: relative;
+}
+.item_img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 6px 0px 0 6px;
+}
+.dis{
+    position: absolute;
+    top: 0;
+    color: rgb(163, 158, 189);
+    right: 3%;
+    font-size: 14px;
+    padding: 10px 10px;
+    background-color: rgba(15, 8, 67, 1);
+    transform: scaleY(0);
+    transition: .5s;
+    transform-origin: top;
+}
+.dis1{
+    position: absolute;
+    top: 0;
+    color: rgb(163, 158, 189);
+    right: 3%;
+    font-size: 14px;
+    padding: 10px 10px;
+    background-color: rgba(15, 8, 67, 1);
+}
+.brand{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(15, 8, 67, 1);
+    color: rgb(163, 158, 189);
+    height: 30px;
+    width: 0;
+    opacity: 0;
+    transition: .5s;
+}
+.dis span{
+    font-size: 10px;
+}
+.item_sec:hover .dis{
+    transform: scaleY(1);
+}
+.item_sec:hover .brand{
+    width: 250px;
+    opacity: 1;
+}
+
+.product_img img{
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 10px;
+}
+.button{
+    border-radius: 30px;
+    text-decoration: none;
+    height: 50px;
+    width: 150px;
+    background-color: rgba(15, 8, 67, 1);
+    padding: 10px 28px;
+    color: rgb(185, 179, 217);
+}
+.thumb-img{
+    height: 120px;
+    width: 120px;
+}
+.thumb-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.btn-1{
+    background-color: rgba(95, 158, 160,.4);
+    font-size: 30px;
+    height: 50px !important;
+    width: 50px !important;
+    border-radius: 5px;
+    display: inline-block;
+}
+.btn-1 span{
+    padding: 0 15px;
+    justify-self: center;
+}
+.btn-1:hover{
+    cursor: pointer;
+}
+.head-font .shopping-cart{
+    color: black !important;
+}
+.cartItem__image{
+    width: 50px;
+    height: 50px;
+}
+table tr, table td, table th{
+    border: 1px solid black;
+}
